@@ -1,0 +1,161 @@
+* {
+        box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    color: white;
+    font-size: 54px;
+}
+
+h2,h3 {
+        margin-left: 0.5rem;
+        
+}
+
+
+html{
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: teal;
+}
+
+p{
+        margin: 0.5rem;
+}
+
+.wrapper {
+    width: 800px;
+    background-color: #aad4cf;
+    /* center block level element */
+    
+    margin: 0 auto;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    /* change block level preperty */
+    display: inline-block;
+    width: 250px;
+    /* usually change text the link */
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    border-right: 1px solid #000;
+    padding: 0.5rem;
+} 
+
+nav li:last-child{
+    border-right: none;
+}
+
+.picture{
+    
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    /* wraps text around image */
+    float: left;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.picture img{
+    display: block;
+    max-width: 100%;
+}
+
+section{
+    text-align: right;
+    margin-right: 1.0rem;
+    padding: 1rem;
+}
+
+aside::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.stage{
+    /* width is 800p  */
+    display: grid;
+    place-items: center;
+    width: 800px;
+    height: 332px;
+    background-color: burlywood;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.stage img{
+    max-width: 150%;
+}
+
+.prop{
+    width: 100%;
+    height: 50px;
+  
+    /* postion properties */
+    position: absolute;
+    text-align: center;  
+    top: 45%;
+}
+
+.facts{
+    padding-left: 0;
+    margin-left: 1.5rem;
+}
+
+label{
+    display: inline-block;
+    /* padding-top: 1.5rem; */
+}
+
+input[type=text]{
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+textarea{
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+input[type=radio]{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    
+}
+
+input[type=submit]{
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    
+}
+
+fieldset{
+    position: block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
